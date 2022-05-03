@@ -1,7 +1,7 @@
 local old_env = getfenv()
 local bkey = {
 -- Blacklisted constants, if you want you could edit them.
-  "getfenv",
+    "getfenv",
     "bit32",
     "pairs",
     "select",

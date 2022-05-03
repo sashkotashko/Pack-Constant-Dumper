@@ -36,5 +36,5 @@ getfenv = function()
 end
 
 old_env['pcall'](function()
-    --script
+-- Script here
 end)

@@ -1,21 +1,6 @@
 local old_env = getfenv()
 local bkey = {
 -- Blacklisted constants, if you want you could edit them.
-    "getfenv",
-    "bit32",
-    "pairs",
-    "select",
-    "math",
-    "rawset",
-    "unpack",
-    "setmetatable",
-    "tonumber",
-    "math",
-    "type",
-    "bit32",
-    "table",
-    "tostring",
-    "bit"
 }
 getfenv = function()
     local new_env = {["old_env"]=old_env,["bkey"]=bkey}

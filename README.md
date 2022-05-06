@@ -1,2 +1,2 @@
 # Universal Constant Dumper
-> ### A simple tool to dump constats out obfuscators.
+> ### A simple public tool to dump constants out obfuscators.
